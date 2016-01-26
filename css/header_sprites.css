@@ -1,0 +1,30 @@
+.icon_help, .header_settings, .spacer {
+	background: url(../sprites/header_sprites.png) no-repeat;
+	display: inline-block;
+	float: none;
+
+}
+
+.icon_help {
+	background-position: -7px -7px ;
+	width: 20px;
+	height: 20px;
+	position: relative;
+	vertical-align: middle;
+	margin: 10px;
+}
+
+.header_settings {
+	background-position: -6px -55px ;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	margin: 10px;
+}
+
+.spacer {
+	background-position: -12px -105px ;
+	width: 1px;
+	height: 30px;
+	vertical-align: middle;
+}

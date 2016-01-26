@@ -1,0 +1,40 @@
+.dashboard, .customers, .messages, .promotions, .page_creator, .analytics{
+	background: url(../sprites/menu_hover_sprites.png) no-repeat;
+}
+
+.dashboard{
+	background-position: -9px -6px ;
+	width: 58px;
+	height: 58px;
+}
+
+.customers{
+	background-position: -9px -87px ;
+	width: 62px;
+	height: 42px;
+}
+
+.messages{
+	background-position: -14px -160px ;
+	width: 57px;
+	height: 48px;
+}
+
+.promotions{
+	background-position: -101px -11px ;
+	width: 50px;
+	height: 50px;
+}
+
+.page_creator{
+	background-position: -102px -154px ;
+	width: 45px;
+	height: 50px;
+}
+
+.analytics{
+	background-position: -103px -80px ;
+	width: 42px;
+	height: 50px;
+}
+

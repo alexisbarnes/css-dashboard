@@ -1,0 +1,143 @@
+.back_arrow, .forward_arrow, .back_button, .forward_button, .ribbon_left, .ribbon_right, .check_orange, .down_arrow, .icon_tip, .icon_settings, .gray_circle, .pull_up, .icon_article, .green_circle, .checkbox, .foursquare, .google, .check_green, .thick_spacer, .thin_spacer, .twitter, .facebook, .icon_article{
+	background: url(../sprites/icons_sprites.png) no-repeat;
+	display: inline-block;
+}
+
+.back_arrow{
+	background-position: -16px -53px ;
+	width: 22px;
+	height: 50px;
+}
+
+.forward_arrow{
+	background-position: -60px -52px ;
+	width: 22px;
+	height: 50px;
+}
+
+.back_button{
+	background-position: -17px -18px ;
+	width: 22px;
+	height: 22px;
+}
+
+.forward_button{
+	background-position: -64px -18px ;
+	width: 22px;
+	height: 22px;
+}
+
+.ribbon_left{
+	background-position: -16px -159px ;
+	width: 15px;
+	height: 40px;
+}
+
+.ribbon_right{
+	background-position: -69px -159px ;
+	width: 15px;
+	height: 40px;
+}
+
+.check_orange{
+	background-position: -164px -15px ;
+	width: 22px;
+	height: 21px;
+}
+
+.down_arrow{
+	background-position: -71px -129px ;
+	width: 10px;
+	height: 6px;
+}
+
+.icon_tip{
+	background-position: -171px -165px ;
+	width: 14px;
+	height: 23px;
+}
+
+.icon_settings{
+	background-position: -113px -118px ;
+	width: 20px;
+	height: 20px;
+}
+
+.gray_circle{
+	background-position: -261px -64px ;
+	width: 24px;
+	height: 24px;
+}
+
+.pull_up{
+	background-position: -17px -130px ;
+	width: 14px;
+	height: 9px;
+}
+
+.icon_article{
+	background-position: -267px -17px ;
+	width: 19px;
+	height: 23px;
+}
+
+.green_circle{
+	background-position: -213px -64px ;
+	width: 24px;
+	height: 24px;
+}
+
+.checkbox{
+	background-position: -113px -18px ;
+	width: 18px;
+	height: 18px;
+}
+
+.foursquare{
+	background-position: -313px -21px ;
+	width: 79px;
+	height: 16px;
+}
+
+.google{
+	background-position: -320px -71px ;
+	width: 62px;
+	height: 16px;
+}
+
+.check_green{
+	background-position: -213px -18px ;
+	width: 22px;
+	height: 20px;
+}
+
+.thick_spacer{
+	background-position: -126px -66px ;
+	width: 1px;
+	height: 20px;
+}
+
+.thin_spacer{
+	background-position: -175px -57px ;
+	width: 1px;
+	height: 51px;
+}
+
+.twitter{
+	background-position: -204px -117px ;
+	width: 54px;
+	height: 16px;
+}
+
+.facebook{
+	background-position: -214px -165px ;
+	width: 70px;
+	height: 16px;
+}
+
+.icon_article{
+	background-position: -114px -165px ;
+	width: 19px;
+	height: 23px;
+}
+

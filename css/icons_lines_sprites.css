@@ -1,0 +1,35 @@
+.small_tip, .tasks_line, .recommendations_dottedline, .small_article, .small_check{
+	background: url(../sprites/icons_lines_sprites.png) no-repeat;
+	display: inline-block;
+}
+
+.small_tip{
+	background-position: -16px -59px ;
+	width: 14px;
+	height: 35px;
+}
+
+.tasks_line{
+	background-position: -20px -121px ;
+	width: 340px;
+	height: 1px;
+}
+
+.recommendations_dottedline{
+	background-position: -20px -172px ;
+	width: 319px;
+	height: 1px;
+}
+
+.small_article{
+	background-position: -64px -10px ;
+	width: 19px;
+	height: 35px;
+}
+
+.small_check{
+	background-position: -10px -17px ;
+	width: 22px;
+	height: 32px;
+}
+
