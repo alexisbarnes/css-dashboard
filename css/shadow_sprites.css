@@ -1,0 +1,11 @@
+.icon_shadow{
+	background: url(../images/shadow_sprites.png) no-repeat;
+	display: inline-block;
+}
+
+.icon_shadow{
+	background-position: -23px -24px ;
+	width: 60px;
+	height: 5px;
+}
+

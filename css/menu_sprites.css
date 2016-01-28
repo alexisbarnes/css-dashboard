@@ -1,8 +1,6 @@
 .analytics, .customers, .dashboard, .messages, .page_creator, .promotions {
 	background: url(../sprites/menu_sprites.png) no-repeat;
-	display: inline-block;
-	margin: 21px;
-	positon: relative;
+	position: relative;
 }
 
 .analytics{

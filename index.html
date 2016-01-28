@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>MINI of Raleigh</title>
 
@@ -17,6 +17,8 @@
    <link href="css/icons_sprites.css" rel="stylesheet">
    <link href="css/avatars_sprites.css" rel="stylesheet">
    <link href="css/icons_lines_sprites.css" rel="stylesheet">
+   <link href="css/shadow_sprites.css" rel="stylesheet">
+   <link href="css/triangle_sprites.css" rel="stylesheet">
     
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -44,8 +46,8 @@
 <!-----------HEADER--------------->
 <div class="container-fluid">
   <div class="row">
-    <div class="header col-md-12">
-      <p>MINI of Raleigh</p>
+    <div class="header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <span class="logo">MINI of Raleigh</span>
       <!---<div class="spacer"></div>--->
       <a href="#"><div class="icon_help"></div></a>
       <!----<div class="spacer"></div>----->
@@ -54,30 +56,119 @@
   </div>
 
 <!-------DESKTOP MENU------->
-  <div class="row">
-    <div class="menu menu_centered col-md-12 col-lg-12">
-      <a href="#"><div class="dashboard"></div></a>
-      <a href="#"><div class="customers"></div></a>
-      <a href="#"><div class="messages"></div></a>
-      <a href="#"><div class="promotions"></div></a>
-      <a href="#"><div class="page_creator"></div></a>
-      <a href="#"><div class="analytics"></div></a>
+  <div class="row menu hidden-xs hidden-sm">
+    <div class="col-md-3"></div>
+      <div class="col-md-1">
+        <div class="dashboard-shadow active">
+        <a href="#"><div class="dashboard"></div></a>
+          <div class="icon_shadow shadow1"></div>
+          <div class="triangle"></div>
+        </div>
+      </div>
+        
+      <div class="col-md-1">
+        <div class="customers-shadow">
+        <a href="#"><div class="customers"></div></a>
+        </div>
+        <div class="icon_shadow shadow2"></div>
+      </div>
+    
+      <div class="col-md-1">
+        <div class="messages-shadow">
+        <a href="#"><div class="messages"></div></a>
+        <div class="icon_shadow shadow3"></div>
+        </div>
+      </div>
+      
+      <div class="col-md-1">
+        <div class="promotions-shadow">
+        <a href="#"><div class="promotions"></div></a>
+        <div class="icon_shadow shadow4"></div>
+        </div>
+      </div>
+      
+      <div class="col-md-1">
+        <div class="page_creator-shadow">
+        <a href="#"><div class="page_creator"></div></a>
+        <div class="icon_shadow shadow5"></div>
+        </div>
+      </div>
+      
+      <div class="col-md-1">
+        <div class="analytics-shadow">
+        <a href="#"><div class="analytics"></div></a>
+        <div class="icon_shadow shadow6"></div>
+        </div>
+      </div>
+      
+      <div class="col-md-3"></div>
     </div>    
-  </div>
+
 </div><!----container-fluid closing div----->
 
 <!--------MOBILE MENU-------->
+<!------code url: www.bootply.com/106743---->
+<div id="mobile-menu">
+  <div class="col-xs-12 col-sm-12 hidden-md hidden-lg navbar_inverse navbar-fixed-bottom">
+    <div class="row" id="bottomNav">
+      <div class="col-xs-2 col-sm-2">
+        <div class="dashboard-shadow">
+        <a href="#"><div class="dashboard"></div></a>
+          <div class="icon_shadow shadow1">
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-xs-2 col-sm-2">
+        <div class="customers-shadow">
+        <a href="#"><div class="customers"></div></a>
+        <div class="icon_shadow shadow2"></div>
+        </div>
+      </div>
+      
+      <div class="col-xs-2 col-sm-2">
+        <div class="messages-shadow">
+        <a href="#"><div class="messages"></div></a>
+        <div class="icon_shadow shadow3"></div>
+        </div>
+      </div>
+      
+      <div class="col-xs-2 col-sm-2">
+        <div class="promotions-shadow">
+        <a href="#"><div class="promotions"></div></a>
+        <div class="icon_shadow shadow4"></div>
+        </div>
+      </div>
+      
+      <div class="col-xs-2 col-sm-2">
+        <div class="page_creator-shadow">
+        <a href="#"><div class="page_creator"></div></a>
+        <div class="icon_shadow shadow5"></div>
+        </div>
+      </div>
+      
+      <div class="col-xs-2 col-sm-2">
+        <div class="analytics-shadow">
+        <a href="#"><div class="analytics"></div></a>
+        <div class="icon_shadow shadow6"></div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
 
 <!-----------------------MAIN CONTENT AREA----------------------->
 
 <!---------DASHBOARD-------->
 <div class="container">
   <div class="row dashboard-row">
-    <div id="dashboard" class="col-md-6">
+    <div id="dashboard" class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
       <p>Dashboard</p>
     </div>
    <!------Search box url: http://webdesign.tutsplus.com/tutorials/css-experiments-with-a-search-form-input-and-button--cms-22069---->
-    <div id="search-dash" class="col-md-6">
+    <div id="search-dash" class="col-lg-6 col-md-6 hidden-sm col-sm-6 col-xs-6">
       <div class="box">
         <div class="container-1">
           <input type="search" id="search" />
@@ -86,27 +177,27 @@
       </div>
     </div>
   </div><!---closing dashboard row--->
-</div><!-----Closing Dashboard div---->
+
 
 <div id="gradient">
   <div class="main-area">
       <!-----ANNOUNCEMENTS---->
       <div id="announcements" class="row">
-        <div class="col-md-2">
+        <div class="col-lg-2 col-md-2 hidden-sm hidden-xs">
           <div class="announcements-txt">
             <p class="orange_txt">ANNOUNCEMENTS</p>
-            <div class="thin_spacer"></div>
+            <!---<div class="thin_spacer"></div>--->
           </div>
         </div><!----closing column div--->
     
-        <div class="col-md-9">
+        <div class="col-lg-9 col-md-9 hidden-sm hidden-xs">
           <div class="announcements-txt">
             <p class="announcements-reg">Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</p>
-            <div class="thin_spacer"></div>
+            <!---<div class="thin_spacer"></div>--->
           </div>
         </div>
     
-        <div class="col-md-1 announcements-arrows">
+        <div class="col-lg-1 col-md-1 hidden-sm hidden-xs announcements-arrows">
           <a href="#"><div class="back_button"></div></a>
           <a href="#"><div class="forward_button"></div></a>
         </div>
@@ -114,7 +205,7 @@
   
       <!------TASKS------>
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <div id="tasks" class="row">
             <div class="col-md-12 tasks-header">
               <p>Tasks</p>
@@ -125,41 +216,47 @@
       
           <div class="row">
             <div class="col-md-12 tasks">
-              <span class="text-wrap"><a href="#" class="tasks-links">
-                <div class="green_circle"><p class="green_circle_active">1</p></div>
+              <span class="text-wrap"><a href="#">
+                <div class="css-circle"><p class="green_circle_active">1</p></div>
                 <p class="tasks-row-txt">Welcome Contacts</p>
                   <div class="avatar-box-1">
-                    <div class="blue_person"></div>
+                    <div class="avatar-hover">
+                    <div class="blue_person"></div><div class="gray_person"></div>
                     <p class="avatar-box-txt">32</p>
+                    </div>
                   </div>
               </a></span>
-              
-              <!---<div class="tasks_line"></div>---->
             </div>
           </div><!-----closing welcome contacts row div--->
+
+      
       
           <div class="row">
             <div class="col-md-12 tasks">
-              <span class="text-wrap"><a href="#" class="tasks-links">
-                <div class="green_circle"><p class="green_circle_active">2</p></div>
-                <p class="tasks-row-txt">Provide Responses</p>
+                <span class="text-wrap"><a href="#">
+                    <div class="css-circle"><p class="green_circle_active">2</p></div>
+                  
+                  <p class="tasks-row-txt">Provide Responses</p>
                   <div class="avatar-box-2">
-                    <div class="blue_person"></div>
-                    <p class="avatar-box-txt">36</p>
-                  </div>
+                    <div class="avatar-hover">
+                      <div class="blue_person"></div><div class="gray_person"></div>
+                      <p class="avatar-box-txt">36</p>
+                    </div>
               </a></span>
-             <!----<div class="tasks_line"></div>---->
-            </div>
-          </div><!----closing provide responses row div---->
+              </div>
+            </div> <!----<div class="tasks_line"></div>--->
+          </div>
       
           <div class="row">
             <div class="col-md-12 tasks">
-              <span class="text-wrap"><a href="#" class="tasks-links">
-                <div class="green_circle"><p class="green_circle_active">3</p></div>
+              <span class="text-wrap"><a href="#">
+                <div class="css-circle"><p class="green_circle_active">3</p></div>
                 <p class="tasks-row-txt">Review Activity</p>
                   <div class="avatar-box-3">
-                    <div class="blue_person"></div>
+                    <div class="avatar-hover">
+                    <div class="blue_person"></div><div class="gray_person"></div>
                     <p class="avatar-box-txt">36</p>
+                    </div>
                   </div>
               </a></span>
               <!----<div class="tasks_line"></div>--->
@@ -168,12 +265,14 @@
       
           <div class="row">
             <div class="col-md-12 tasks">
-              <span class="text-wrap"><a href="#" class="tasks-links">
-                <div class="green_circle"><p class="green_circle_active">4</p></div>
+              <span class="text-wrap"><a href="#">
+                <div class="css-circle"><p class="green_circle_active">4</p></div>
                 <p class="tasks-row-txt">Reach Out</p>
                   <div class="avatar-box-4">
-                    <div class="blue_person"></div>
+                    <div class="avatar-hover">
+                    <div class="blue_person"></div><div class="gray_person"></div>
                     <p class="avatar-box-txt">3</p>
+                    </div>
                   </div>
               </a></span>
               <!---<div class="tasks_line"></div>---->
@@ -238,7 +337,7 @@
 
 
       <!-----ANALYTICS----->
-      <div class="col-md-8">
+      <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
         <div class="row analytics-main">
           <p class="analytics-header">Analytics</p>
             <div class="row">
@@ -266,11 +365,11 @@
                   </div><!-----closing analytic-activity-div div---->
                     <div class="col-md-2 circle_graphs">
                       <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-12 col-sm-3 col-xs-3">
                           <p class="circle_graph_txt">CHANNELS</p>
                           <img src="images/pie_graph_channels.png" alt="Channels pie graph" id="pie_graph_channels">
                         </div>
-                          <div class="col-md-12">
+                          <div class="col-md-12 col-sm-6 col-xs-6">
                             <p class="circle_graph_txt">REFERRALS</p>
                             <img src="images/pie_graph_referrals.png" alt="Referrals pie graph" id="pie_graph_referrals">
                           </div>
@@ -280,15 +379,32 @@
               </div>
             </div>  
         </div><!-----closing analytics-main div----->
-      </div><!------closing col-md-8 div---->
-      <!-----Social media & check boxes---->
-      
+        
+        
+              <!-----Social media & check boxes---->
+              <!----url: http://codepen.io/jointmedias/pen/HqCJe--->
+            <div class="social-media-form">
+          
+            <input type="checkbox" id="facebook" name="facebook" checked="checked"><label for="facebook"><span></span><div class="facebook-check"><p>Facebook</p></div></label>
+            
+             
+            <input type="checkbox" id="twitter" name="twitter" checked="checked"><label for="twitter"><span></span><div class="twitter-check"><p>Twitter</p></div></label>
+              
+              
+            <input type="checkbox" id="foursquare" name="foursquare"><label for="foursquare"><span></span> <div class="foursquare-check"><p>Foursquare</p></div></label>
+              
+             <input type="checkbox" id="googleplus" name="googleplus"><label for="googleplus"><span></span><div class="google-check"><p>Google+</p></div></label>
+             
+            </div>
 
-      <!------CONTACTS------>
-      <div class="row">
-        <div class="col-md-4 outer-box border-left">
-          <div class="ribbon_left"></div>
-            <div class=" col-md-2 inner-box">
+      <!------CONTACTS & CUSTOMERS------>
+      
+      <!------CONTACTS----->
+      <div class="row border-left padding-left col-sm-12 col-xs-12 bottom">
+        
+        <div class="col-md-offset-1 col-md-4 col-lg-4 outer-box contacts-box">
+               <div class="ribbon_left"></div>
+            <div class=" col-md-2 col-lg-2 inner-box">
               <div class="avatar_green"></div>
                 <div class="analytics-box1">
                   <p class="analytics-maintxt">75 CONTACTS</p>
@@ -298,11 +414,11 @@
               </div>
           <div class="ribbon_right"></div>
         </div>
+          
         
-        <!------CUSTOMERS----->
-        <div class="col-md-4 outer-box">
+        <div class="col-md-4 col-lg-4 outer-box customers-box">
           <div class="ribbon_left"></div>
-            <div class="inner-box col-md-2">
+            <div class="inner-box col-md-2 col-lg-2">
               <div class="avatar_orange"></div>
                 <div class="analytics-box1">
                   <p class="analytics-maintxt">17 CUSTOMERS</p>
@@ -312,80 +428,96 @@
             </div>    
           <div class="ribbon_right"></div>
           </div>
+          
         </div>
+
       
     
-          <!-------Did you know?----->
-          <div class="col-md-8">
+          <!-------Did you know?---->
+          <div class="row border-left">
+          <div class="col-md-10">
             <div id="did-you-know">
-              <div class="back_arrow"></div>
+              <a href="#"><div class="back_arrow"></div></a>
                 <div class="did-you-know-box">
-                  <p>DID YOU KNOW?</p>
-                  <p>Maecenas sed diam eget risus varius blandit sit smet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod.</p>
+                  <p class="did-you-know-title">DID YOU KNOW?</p>
+                  <p class="did-you-know-description">Maecenas sed diam eget risus varius blandit sit smet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod.</p>
                 </div>
               <div class="forward_arrow"></div>
             </div>
           </div>
+          </div>
+        
+        
+        
+      </div><!------closing col-md-8 div---->
+ 
       
       </div>    
-
+  
       <!-----ADS---->
-      <div class="row">      
+      <div class="row">
+        <div class="ads-box col-lg-12 col-md-12">
         <div id="ads">
-          <div class="ads-box col-md-10">
+
             <div class="white-box1">
-              <a href="#"><img src="images/ad_watch.png" alt="watch what you say ad">
-            </div></a>
+              <a href="#"><img src="images/ad_watch.png" alt="watch what you say ad" class="ad_watch">
+            </a></div>
             <div class="white-box2">
-              <a href="#"><img src="images/ad_see.png" alt="see what others are doing with us ad"></a>
+              <a href="#"><img src="images/ad_see.png" alt="see what others are doing with us ad" class="ad_see"></a>
             </div>
             <div class="white-box3">
-              <a href="#"><img src="images/ad_version.png" alt="version 2.0 coming soon ad"></a>
+              <a href="#"><img src="images/ad_version.png" alt="version 2.0 coming soon ad" class="ad_version"></a>
             </div>
          
-        </div>
+        
       </div><!----closing ads row div--->
   </div><!----not sure what this div is---->
+      </div>
 </div><!----not sure what this div is--->
 
   </div><!----main content area closing div---->
   </div><!----gradient closing div------>
+</div><!-----Closing Dashboard div---->
 
-
-<!----Footer---->
-<footer>
-<div class="container-fluid">
-  <div class="row">
-    <div id="footer" class="col-md-12">
-      <div class="left-text">
-        <p>Tutorials</p>
-        
-        <p>Support</p>
-        
-        <p>Blog</p>
+<!----FOOTER---->
+<div class="row footer hidden-sm hidden-xs">
+  <br>
+  <div class="container-fluid">
+    <div class="col-md-3 gray-box left-text">
+      <a href="#"><p class="foot">Tutorials</p></a>
+      <a href="#"><p class="foot side-border">Support</p></a>
+      <a href="#"><p class="foot">Blogs</p></a>
+    </div>
+    
+    <div class="col-md-5 gray-box side-border">
+      <p class="foot middle-text">
+        <a href="#">Ariel Winter </a>
+        likes your
+        <a href="#">Win A Cooper Sweepstakes </a>
+        Promotion
+        <a href="#"><span class="pull_up"></span></a>
+      </p>
+    </div>
+    
+    <div class="col-md-2 gray-box">
+      <span class="user_avatar"></span>
+      <p class="foot float-right">
+        <a href="#" class="foot logout">Logout</a>
+      </p>
+    </div>
+    
+    <div class="col-md-2 gray-box side-border social">
+      <a href="#"><span class="facebook_nocolor"></span></a>
+      <a href="#"><span class="twitter_nocolor"></span></a>
+      <a href="#"><span class="foursquare_nocolor"></span></a>
+      <a href="#"><span class="youtube_nocolor"></span></a>
+    </div>
+    
+  </div>
   
-      </div><!-----closing left-text div---->
-      
-      <div class="middle-text">
-        <p><a href="#">Ariel Winter</a> likes your <a href="#">Win A Cooper Sweepstakes</a>Promotion</p>
-      </div>
-      <div class="pullup"></div>
-      
-      <div class="logout">
-        <div class="user_avatar"></div>
-        <p>Logout</p>
-      </div>
-      
-      <div class="footer-socialmedia">
-        <a href="#"><div class="facebook_nocolor"></div></a>
-        <a href="#"><div class="twitter_nocolor"></div></a>
-        <a href="#"><div class="foursquare_nocolor"></div></a>
-        <a href="#"><div class="youtube_nocolor"></div></a>
-      </div>
-      <div class="thick_spacer"></div>
-      
-    </div><!----closing footer id div ---->
+</div>
 
-</footer>
+
+
 </body>
 </html>
